@@ -22,6 +22,9 @@ TARGET_OTA_ASSERT_DEVICE := davinci,davinciin
 # Audio
 AUDIO_FEATURE_ENABLED_TFA98XX_FEEDBACK := true
 
+# Fingerprint
+TARGET_SURFACEFLINGER_FOD_LIB := //$(COMMON_PATH):libfod_extension
+
 # Init
 TARGET_INIT_VENDOR_LIB := libinit_davinci
 TARGET_RECOVERY_DEVICE_MODULES := libinit_davinci
