@@ -53,4 +53,6 @@
         <item>3</item>
     </integer-array>
 
+    <!-- We don't have multicolor LED -->
+    <bool name="config_multiColorBatteryLed">false</bool>
 </resources>
